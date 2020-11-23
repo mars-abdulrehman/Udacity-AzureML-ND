@@ -32,15 +32,15 @@ This model is then compared to an Azure AutoML run.
 
 ## Pipeline comparison
 
-**Though we only get a difference of about 1% in accuracy between manually trained model, and model produced by AutoML, AutoML gives us a better accuracy of 91.11% and it took comparatively the same time to run multiple models as the LogisticRegression pipeline took to come up with best hyperparameters.**
+**Though we only get a difference of about 1% in accuracy between manually trained model, and model produced by AutoML, AutoML gives us a better accuracy of 91.79% and it took comparatively the same time to run multiple models as the LogisticRegression pipeline took to come up with best hyperparameters.**
 
 **Also, AutoML performed all the data cleaning and preprocessing steps automatically, which saved a lot of programmers time. The saved time can be utilised to work on actual buiseness problem than spending on cleaning data and other mundane tasks.**
 
 ## Future work
-
-**As future experiments, we can try and use different classification metrics like, F1 score, AUC, precision, recall scores, etc as Accuracy may not reflect the true model performance in real time conditions/buiseness scenarios.**
-**Also, AutoML can be allowed to run for much longer duration to evaluate other models and come up with better performace metrics.**
-**There is class imbalance in target column. As a future experiment, this can be handled before running the AutoML pipeline so as to not have better results.**
+**Some of the future enhancements that can be performed on this use case are:-**
+1. **As future experiments, we can try and use different classification metrics like, F1 score, AUC, precision, recall scores, etc as Accuracy may not reflect the true model performance in real time conditions/buiseness scenarios.**
+2. **Also, AutoML can be allowed to run for much longer duration to evaluate other models and come up with better performace metrics.**
+3. **There is class imbalance in target column. As a future experiment, this can be handled before running the AutoML pipeline so as to not have better results.**
 
 ## Proof of cluster clean up
 
