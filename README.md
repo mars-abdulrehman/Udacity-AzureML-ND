@@ -41,3 +41,9 @@ This model is then compared to an Azure AutoML run.
 **As future experiments, we can try and use different classification metrics like, F1 score, AUC, precision, recall scores, etc as Accuracy may not reflect the true model performance in real time conditions/buiseness scenarios.**
 **Also, AutoML can be allowed to run for much longer duration to evaluate other models and come up with better performace metrics.**
 **There is class imbalance in target column. As a future experiment, this can be handled before running the AutoML pipeline so as to not have better results.**
+
+## Proof of cluster clean up
+
+![compute-cluster](images/compute-cluster-deleted.png)
+
+![compute-instance](images/compute-instance-stopped.png)
